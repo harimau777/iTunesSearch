@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: rgb(207, 36, 231);
+}
+
+h1 {
+  color: rgb(207, 36, 231);
+  font-family: 'Audiowide', cursive;
+}
+
+.background {
+  background-image: url(./background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 62.5%;
+}
+
+.app {
+  background-color: rgba(27, 20, 76, .5);
+  border-radius: 5px;
+  width: 80%;
+  height: 80%;
+  min-width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-family: 'Audiowide', cursive;
+}
+
+input,
+button {
+  border-radius: 5px;
+  border-width: 0;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Audiowide', cursive;
+  background-color: rgba(34, 43, 217, .5);
+  color: rgb(207, 36, 231)
+}
+
+.albumList {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-height: 60%;
+  overflow-y: scroll;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
